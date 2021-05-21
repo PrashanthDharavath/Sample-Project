@@ -1,0 +1,10 @@
+{
+  "issueKeyTestcaseValues": {
+    "34a9942c-6b14-43c5-a191-b69fc5fa50e2": "e21df5c4-9aab-4aff-3510-08d8ff1e6b57",
+    "d6bf1845-a0d1-4070-9d40-125d9ff80d2a": "8a479406-e3ce-4a08-e4d8-08d90022bc4d",
+    "c2d889bb-83d6-4b39-adb1-ff4ce7efcf5b": "066288c9-1845-449c-e4da-08d90022bc4d",
+    "4d89e1fa-4eaa-4071-989e-bc31d4d884b2": "2deae858-65dd-4c35-e4d9-08d90022bc4d",
+    "f14bed8d-0d88-45d2-adf9-d8d4f49a3faa": "c88538c3-3c77-40a3-6397-08d905a093cf"
+  },
+  "testManagerBasePath": "https://windows-iq5c200:8443"
+}

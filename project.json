@@ -1,0 +1,123 @@
+{
+  "name": "Sample Project",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.10.3]",
+    "UiPath.Testing.Activities": "[1.2.4]",
+    "UiPath.UIAutomation.Activities": "[20.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.4.0",
+  "projectVersion": "1.0.75049692",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d6bf1845-a0d1-4070-9d40-125d9ff80d2a",
+        "fileName": "TestCase1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4d89e1fa-4eaa-4071-989e-bc31d4d884b2",
+        "fileName": "TestCase2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c2d889bb-83d6-4b39-adb1-ff4ce7efcf5b",
+        "fileName": "TestCase3.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "34a9942c-6b14-43c5-a191-b69fc5fa50e2",
+        "fileName": "Loan Application - Test Case.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TestCase1.xaml",
+      "uniqueId": "d6bf1845-a0d1-4070-9d40-125d9ff80d2a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TestCase2.xaml",
+      "uniqueId": "4d89e1fa-4eaa-4071-989e-bc31d4d884b2",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TestCase3.xaml",
+      "uniqueId": "c2d889bb-83d6-4b39-adb1-ff4ce7efcf5b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Loan Application - Test Case.xaml",
+      "uniqueId": "34a9942c-6b14-43c5-a191-b69fc5fa50e2",
+      "input": [
+        {
+          "name": "emailaddress",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "amount",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "term",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "income",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "age",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        }
+      ],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
